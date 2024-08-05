@@ -46,7 +46,7 @@ export default function Intro() {
         </div>
       </div>
 
-      <motion.p className="mb-10 mt-4 px-4 text-2xl font-medium !leading-{1.5}
+      <motion.h1 className="mb-10 mt-4 px-4 text-2xl font-medium !leading-{1.5}
       sm:text-4xl"
       initial={{ opacity: 0, y: 100}}
       animate={{ opacity: 1, y: 0}}
@@ -54,7 +54,7 @@ export default function Intro() {
         <span className="font-bold">Hello, I'm Daniel </span> 
         I'm a student University of Calgary{" "}
         <span className="font-bold">currently studing Software Engineering</span>
-      </motion.p>
+      </motion.h1>
 
       <motion.div className="flex flex-col sm:flex-row justify-center space-x-2 px-4 text-lg font-medium"
             initial={{ opacity: 0, y: 100}}
