@@ -54,14 +54,14 @@ export default function Intro() {
         </div>
       </div>
 
-      <motion.h1 className="mb-10 mt-4 px-4 text-2xl font-medium !leading-{1.5}
-      sm:text-4xl"
+      <motion.h1 className="group mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5]
+      sm:text-4xl max-w-[60rem] "
       initial={{ opacity: 0, y: 100}}
       animate={{ opacity: 1, y: 0}}
       >
-        <span className="font-bold">Hello, I'm Daniel </span> 
+        <span className="font-bold">Hello, I'm Daniel. </span> 
         I'm a student University of Calgary{" "}
-        <span className="font-bold">currently studing Software Engineering</span>
+        <span className="font-bold">currently studying Software Engineering.</span>
       </motion.h1>
 
       <motion.div className="flex flex-col sm:flex-row justify-center space-x-2 px-4 text-lg font-medium"
@@ -89,13 +89,13 @@ export default function Intro() {
 
         <a className="bg-white p-4 text-gray-900 flex items-center gap-2
         rounded-full focus:scale-110 hover:scale-110 hover:bg-white active:scale-105 cursor-pointer
-        transition border border-black/10" href="https://linkedin.com" target="_blank">
+        transition border border-black/10" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank">
           <BsLinkedin />
         </a>
 
         <a className="bg-white p-4 text-gray-900 flex items-center gap-2
         text-{1.35rem} rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:bg-white hover:text-gray-950 active:scale-105 cursor-pointer
-        transition border border-black/10" href="https://github.com" target="_blank">
+        transition border border-black/10" href="https://github.com/danielftn?tab=overview&from=2024-08-01&to=2024-08-29" target="_blank">
           <BsGithub />
         </a>
       </motion.div>
