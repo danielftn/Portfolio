@@ -83,7 +83,7 @@ export default function Intro() {
 
         <a className="group bg-white text-gray-900 px-7 py-3 flex items-center gap-2
           rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white active:scale-105 cursor-pointer
-          transition border border-black/10" href="/CV.pdf" download={true}>
+          transition border border-black/10" href="/Daniel Fatokun - Resume.pdf" download={true}>
           Download CV <HiDownload className="opacity-60 group-hover:translate-y-1 transition "/>
         </a>
 

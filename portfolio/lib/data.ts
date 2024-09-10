@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import python from "@/public/Python.png"
 
 export const links = [
   {
@@ -58,9 +59,25 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "May 2024 - August 2024",
   },
+  {
+    title: "Earls Bankers Hall",
+    location: "Calgary, AB",
+    description:
+      "Back-of-House Kitchen Team Member responsible for efficiently washing and restacking dishes and cutlery to maintain readiness for customer demand, while effectively communicating with the head chef during peak hours.",
+    icon: React.createElement(CgWorkAlt),
+    date: "June 2023 - April 2024",
+  },
+  
 ] as const;
 
 export const projectsData = [
+  {
+    title: "E-commerce Website",
+    description:
+      "Developed an e-commerce website using React, Javascript, CSS, and Python, integrating an API to manage product data and user transactions. The site also featured a secure login system, restricting product access to registered users.",
+       tags: ["React", "JavaScript", "CSS", "Python"],
+    imageUrl: corpcommentImg,
+  },
   {
     title: "Art Museum Database",
     description:
@@ -92,13 +109,16 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Java",
   "C",
   "C++",
   "Python",
+  "JavaScript",
+  "TypeScript",
+  "HTML",
+  "CSS",
+  "React",
+  "Java",
+  "Assembly",
+  "Framer Motion",
+
 ] as const;
